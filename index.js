@@ -14,7 +14,7 @@ try {
 
 app.use(cors())
 app.use(express.json())
-app.use('/',router)
+app.use('/produtos',router)
 
 app.listen(port, () => {
     console.log('App listening on port http://localhost:4000');
